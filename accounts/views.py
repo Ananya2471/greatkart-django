@@ -47,7 +47,7 @@ def register(request):
     else:
         form=RegistrationForm()
     context={
-        'form':form,
+        'form': form,
     }
     return render(request,'accounts/register.html',context)
 def login(request):
